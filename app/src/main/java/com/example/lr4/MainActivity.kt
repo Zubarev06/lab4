@@ -33,3 +33,9 @@ fun factorial(n: Int): Int {
         return n * factorial(n-1)
     } else return 1
 }
+
+fun summ(n: Int): Float {
+    var s: Float = 0.0f
+
+    return s
+}
