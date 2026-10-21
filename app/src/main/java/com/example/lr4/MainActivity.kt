@@ -27,8 +27,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lr4Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-
+                    SumN(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
