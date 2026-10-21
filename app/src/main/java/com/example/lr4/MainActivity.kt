@@ -36,6 +36,8 @@ fun factorial(n: Int): Int {
 
 fun summ(n: Int): Float {
     var s: Float = 0.0f
-
+    for (i in 1..n) {
+        s += 1.0f/(factorial(i))
+    }
     return s
 }
